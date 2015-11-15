@@ -1,5 +1,5 @@
 import java.io.*;
-public class BA {
+class BA {
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
     int np,nr,resource[],available[],claim[][],allocation[][],request[][];
     boolean suspended[];
